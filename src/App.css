@@ -2,37 +2,372 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-header {
+  background-color: #e01616;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: aliceblue;
+  width: 100%;
+  padding: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.firstpart-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+.first-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+.second-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+.head-header{
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 8px;
+}
+.first-logo{
+  margin-right: 10px;
+}
+.vl {
+  border-left: 0.11rem solid  aliceblue;
+  height: 1rem;
+  opacity: 0.8;
+  margin-right: 10px;
+}
+.icons-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.twitter-icon{
+  margin-right: 20px;
+}
+.twitter-icon:hover{
+  color: darkgray;
+  cursor: pointer;
+}
+.linkedin-icon{
+  margin-right: 20px;
+}
+.linkedin-icon:hover{
+  color: darkgray;
+  cursor: pointer;
+}
+.insta-icon{
+  margin-right: 20px;
+}
+.insta-icon:hover{
+  color: darkgray;
+  cursor: pointer;
+}
+.fb-icon{
+  margin-right: 20px;
+}
+.fb-icon:hover{
+  color: darkgray;
+  cursor: pointer;
+}
+@media screen and (max-width:767px) {
+  .head-header{
+    font-size: 0.5rem;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: aliceblue;
+  }
+  .App-header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .first-logo{
+    margin-right: 3px;
+  }
+  .twitter-icon{
+    margin-right: 10px;
+  }
+  .linkedin-icon{
+    margin-right: 10px;
+  }
+  .fb-icon{
+    margin-right: 10px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-one{
+  display: flex;
+  align-items: center;
+  background-color: #fdd7d6;
+}
+
+.firstpart-co{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10vw;
+  padding: 10px;
+}
+.para-co{
+  font-weight: 500;
+  color: #494d4b;
+  text-align: start;
+}
+.head-co{
+  font-weight: 700;
+  color: black;
+  text-align: start;
+}
+.image-logo01{
+  display: none;
+}
+@media (max-width:767px) {
+  .image-logo01{
+    display: block;
+    height: 330px;
+    width: 330px;
+  }
+  .image-logo02{
+    display: none;
+  }
+  .firstpart-co{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdd7d6;
+    padding: 0px;
+  }
+  .para-co{
+    font-weight: 500;
+    color: #494d4b;
+    text-align: center;
+  }
+  .head-co{
+    font-weight: 700;
+    color: black;
+    text-align: center;
+  }
+}
+.btn-co{
+  background-color: #e01616;
+  color: aliceblue;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  border: 2px solid #fdd7d6;
+}
+.btn-co:hover{
+  color: #e01616;
+  background-color: transparent;
+  border: 2px solid #e01616;
+}
+.container-two{
+  display: flex;
+  align-items: center;
+  padding: 5vw 10vw 5vw 10vw;
+}
+.firstpart-ct{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.logos-cont{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+.head-logos{
+  font-size: 30px;
+}
+.icons-logo{
+  height: 40px;
+  width: 40px;
+}
+.image-logo21{
+  display: none;
+  height: 330px;
+  width: 330px;
+}
+.image-logo22{
+  display: block;
+  height: 330px;
+  width: 330px;
+}
+@media (max-width:767px) {
+  .image-logo21{
+    display: block;
+    height: 330px;
+    width: 330px;
+    margin-bottom: 20px;
+  }
+  .image-logo22{
+    display: none;
+  }
+  .firstpart-ct{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .para-co{
+    font-weight: 500;
+    color: #494d4b;
+    text-align: center;
+  }
+  .head-co{
+    font-weight: 700;
+    color: black;
+    text-align: center;
+  }
+  .container-two{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0px;
+  }
+  .logos-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .head-logos{
+    font-size: 10px;
+  }
+  .icons-logo{
+    height: 15px;
+    width: 15px;
+  }
+}
+.container-three{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #f5e4e4;
+  padding: 30px;
+}
+.three-cols{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.serv-cont{
+  width: 50vw;
+}
+.three-head{
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+}
+.three-para{
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(36, 33, 33);
+}
+.fin-icon{
+  height: 40px;
+  width: 40px;
+  margin-bottom: 20px;
+}
+.each-three{
+  margin: 30px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.each-three2{
+  margin: 30px;
+  border: 2px solid #d19290;
+  padding: 10px;
+  border-radius: 10px;
+}
+@media (max-width:767px) {
+  .three-cols{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+.footer{
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(rgba(0, 0, 0,0.7), rgba(0, 0, 0,0.7)), url('https://scopeblog.stanford.edu/wp-content/uploads/2020/02/Hand-with-phone-scaled-1152x578-1.jpg');
+  background-position: center top;
+  background-size: cover;
+
+}
+.footer-head{
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: start;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.footer-para{
+  font-size: 1rem;
+  font-weight: 200;
+  text-align: start;
+  color: whitesmoke;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.last-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.btn-last{
+  background-color: #e01616;
+  color: aliceblue;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+.input{
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  color: white;
+  padding: 10px;
+}
+@media (max-width:767px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
+  .last-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
