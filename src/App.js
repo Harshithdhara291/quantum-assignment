@@ -30,9 +30,7 @@ function App() {
           <BsInstagram  className='insta-icon'/>
         </div>
       </header>
-      <div>
       <NavbarHead/>
-      </div>
       <div className='container-one'>
           <div className='firstpart-co'>
               <p className='para-co'>Ki Name Dhake Bolto Tomake</p>
